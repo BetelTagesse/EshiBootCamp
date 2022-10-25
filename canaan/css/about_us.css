@@ -1,0 +1,237 @@
+.header_img{
+   
+    height: 70vh;
+    width: 100%;
+    margin:auto;
+    margin-bottom: 100px;
+    position:relative;
+    background-image: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)),url(../images/image_2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.about_us{
+    width:80%;
+    margin:auto;
+    padding: 30px;
+}
+
+.about_header{
+    margin-top: 20px;
+    margin-bottom:60px;
+}
+
+.about_header h1{
+    width:50%;
+    margin: auto;
+    margin-bottom: 30px;
+    font-size:40px;
+}
+
+.about_header p{
+    line-height: 25px;
+    font-size:medium;
+    font-weight: 500;
+    /* font-family: 'Times New Roman', Times, serif; */
+    padding: 30px;
+    border-radius:5px;
+    border-width: 0.4px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: rgb(203, 203, 203);
+
+}
+
+.cards{
+    display:flex;
+    margin-bottom: 100px;
+    
+}
+
+.vision, .mission, .value{
+    padding: 30px;
+    margin: 10px;
+    color:white;
+    border-radius:1px;
+    border-width: 0.4px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: rgb(203, 203, 203);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../images/canaan_1.jpg);
+    /* background-color: rgba(247, 84, 25, 0.8); */
+    font-weight:lighter;
+}
+ .value h2{
+    padding-left: 90px;
+    padding-bottom: 20px;
+}
+ .mission  h2{
+    padding-left: 70px;
+    padding-bottom: 20px;
+}
+.vision h2{
+    padding-left: 70px;
+    padding-bottom: 20px;
+}
+
+#message{
+    width:45%;
+    margin:auto;
+    margin-bottom:30px;
+}
+
+.boxes{
+    display:flex;
+    width:50%;
+    margin:auto;
+    margin-bottom: 50px;
+   
+}
+.saron,.muler{
+    width: 200px;
+    height: 110px;
+    border-radius:1px;
+    border-width: 0.4px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: rgb(195, 195, 195);
+    margin-right: 20px;
+    padding: 15px;
+}
+
+#details{
+    color: coral;
+    font-weight: bold;
+    padding-top: 25px;
+}
+
+ .message,.messages{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:30px;
+    width:80%;
+    margin: auto;
+    margin-bottom:60px;
+}
+ 
+.sari{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 0.2px;
+    font-family: Arial, Helvetica, sans-serif 
+}
+
+.second_col{
+    border-left-style: solid;
+    padding: 30px;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.9)),url(../images/image_2.jpg);
+
+    color:white;
+    
+}
+.second_col i{
+    padding-top:10px;
+    padding-left: 10px;
+    color: rgb(255, 227, 48);
+    font-size: large;
+    
+    
+}
+
+
+#sari{
+    padding-left: 40px;
+    padding-top: 25px;
+}
+
+
+.lastpart{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 60px;
+    gap:0;
+}
+
+.sari_video{
+    /* background-color: coral; */
+}
+.rightpart{
+    background-color: rgb(24, 15, 109);
+    color:white;
+    padding-left: 60px;
+}
+.rightpart h1{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.rightpart_list{
+    padding-top: 40px;
+    padding-left: 30px;
+    border-left-style: dotted;
+
+   
+}
+
+.rightpart_list::before{
+    content:'';
+    position: absolute;
+    width: 30px; 
+    height: 30px;
+    border-radius: 50%;
+    right:100%;
+    top:0;
+    background-color: coral;
+    border:20px solid white;
+}
+@media(max-width:700px){
+  .header_img{
+    width:500px;
+    /* height: 30vh; */
+  }
+  /* .about header h1{
+    width:80%;
+    margin: auto;
+    font-size: 10px;
+    margin-top: 10px;
+  } */
+
+  .cards{
+    display: flex;
+    flex-direction:column;
+  }
+  .boxes{
+    display:grid;
+    grid-template-columns:0.6fr 0.6fr;
+    margin-left: 0px;
+    /* margin-right:50px; */
+  }
+  .messages,.lastpart{
+    display:flex;
+    flex-direction:column;
+    margin-bottom:40px;
+    /* gap:10px; */
+    /* margin-bottom:60px; */
+}
+.sari_video embed{
+    padding-bottom:20px;
+    width:500px;
+
+}
+.sari{
+    display:flex;
+    flex-direction:column;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 0.1px;
+    font-family: Arial, Helvetica, sans-serif 
+}
+.sari img{
+    width:100%;
+}
+  
+}

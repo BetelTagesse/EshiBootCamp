@@ -11,7 +11,8 @@
 
     <title>Canaan Garment</title>
   </head>
-  <body class="body lightTheme">
+  <body class="body lightTheme"
+        onload = "slider()">
     <nav class="nav">
       <span class="nav__logo" aria-hidden="true">Canaan Garment</span>
       <button
@@ -30,8 +31,11 @@
           <a class="nav__link" href="index.html">Home</a>
         </li>
         <li class="nav__item">
-          <a class="nav__link" href="html/about.html">About Us</a>
+          <a class="nav__link" href="html/about_us.html">About Us</a>
         </li>
+        <li class="nav__item">
+            <a class="nav__link" href="html/products.html">Products</a>
+          </li>
         <li class="nav__item">
           <a class="nav__link" href="html/projects.html">Projects</a>
         </li>
@@ -49,14 +53,17 @@
       </ul>
     </nav>
     <div class="container_1">
+       <div class = "slider">
+            <img src = "images/canaan_1.jpg" id = "slideImg">
+       </div>
       
-      <div class="container_2">
-        <h1 id = "first">Do you know why<br/> you should choose<br/> <span id = "coral">Canaan Garment?</span></h1>
-        <!-- <p> Canaan Garment is currently a growing textile company that is currently based in Modjo,Ethiopia.The purpose  <br/> of the 
-            company is to provide clothes with a high quality and quantity.</p>
-    -->
-        <a href = "html/recognition.html" class = "answer_button">View For More</a>
-    </div>
+        <div class="container_2">
+            <h1 id = "first">Do you know why<br/> you should choose<br/> <span id = "coral">Canaan Garment?</span></h1>
+            <!-- <p> Canaan Garment is currently a growing textile company that is currently based in Modjo,Ethiopia.The purpose  <br/> of the 
+                company is to provide clothes with a high quality and quantity.</p>
+        -->
+            <a href = "html/recognition.html" class = "answer_button">View For More</a>
+        </div>
   </div>
   <div class = "container_3">
     <h1 id = "purpose">Our Purpose</h1><br/>
@@ -299,7 +306,7 @@
               <h2>Menu</h2>
 
               <p><a href="index.html">Home</a></p>
-              <p><a href="html/about.html">About Us</a></p>
+              <p><a href="html/about_us.html">About Us</a></p>
               <p><a href="html/projects.html">Projects</a></p>
               <p><a href="html/practice_areas.html">Practice Areas</a></p>
               <p><a href="html/recognition.html">Recognition</a></p>
@@ -334,11 +341,8 @@
 <p>&copy; 2022 All Right Reserved</p>
 </div>
 
-  <!-- <footer class="footer">
-      <p class="footer__text" aria-label="copyright">
-        &copy; 2021, All rights reserved
-      </p>
-  </footer> -->
-  </body>
+</body>
   <script src="js/script.js"></script>
+  <script src="js/animation.js"></script>
+
 </html>
